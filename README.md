@@ -1,12 +1,15 @@
 # pomodoro-timer
 
+From a [tutorial](https://dev.to/iwilsonq/reasonml-with-react-hooks-tutorial-building-a-pomodoro-timer-57h0).
+
 ## Run Project
 
 ```sh
 npm install
 npm start
-# in another tab
+# in another terminal
 npm run webpack
+live-server build
 ```
 
 After you see the webpack compilation succeed (the `npm run webpack` step), open up `build/index.html` (**no server needed!**). Then modify whichever `.re` file in `src` and refresh the page to see the changes.
